@@ -1,13 +1,13 @@
-public class DynamicArray<T> {
+public class dynamicArray<T> {
     private T[] array;
     private int length = 0;       // array capacity being used.
     private int capacity = 0;     // total capacity of array.
 
-    public DynamicArray() {             //initializing the array with 8 units unless the user defines manually.
+    public dynamicArray() {             //initializing the array with 8 units unless the user defines manually.
         this(1);
     }
 
-    public DynamicArray(int capacity) {         //initializing the array with a custom size
+    public dynamicArray(int capacity) {         //initializing the array with a custom size
         if (capacity <= 0) throw new IllegalArgumentException("Invalid Capacity: " + capacity);
         this.capacity = capacity;
         array = (T[]) new Object[capacity];
