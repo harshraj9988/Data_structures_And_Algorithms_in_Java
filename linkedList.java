@@ -1,5 +1,3 @@
-package Data_structures_And_Algorithms_in_Java;
-
 public class linkedList <T> {
     private int size=0;
     private Node head=null;

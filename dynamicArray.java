@@ -1,5 +1,3 @@
-package Data_structures_And_Algorithms_in_Java;
-
 public class dynamicArray<T> {
     private T[] array;
     private int length = 0;       // array capacity being used.
